@@ -65,23 +65,21 @@ a {
 
 div.burger {
 	position: relative;
-	width: 60px;
-	height: 60px;
 	cursor: pointer;
 	margin-left: 46px;	
 }
 
 div.x, div.y, div.z {		
 	background: #002749;
-	border-radius:2px;
-	transition: all 200ms ease-out;
-	margin-bottom: 9px;
+    border-radius: 50px;
+    transition: all 200ms ease-out;
+    margin-bottom: 3px;
 }	
 
 div.y {
 	height: 2px;
 	width: 44px;
-	margin-left: -10px;
+	margin-left: -11px;
 }
 
 div.x, div.z { 
@@ -181,6 +179,7 @@ div.circle.expand{
 /* end burger */
 /* end header */
 .background__main-section {
+	width: 1000px;
 	display: flex;
 	background: url(../img/index-background.svg) no-repeat;
 
@@ -215,16 +214,14 @@ div.circle.expand{
 
 /* start footer */
 .footer {
-    display: flex;
-    justify-content: flex-end;
-	align-items: center;
+	display: flex;
+    justify-content: space-around;
 	margin: 0;
     padding: 0;
 }
 
 .certification {
-	position: absolute;
-	left: 80px;
+
 	font-size: 11px;
 	line-height: 19px;
 	letter-spacing: 0.02em;
@@ -233,8 +230,6 @@ div.circle.expand{
 
 .social {
 	display: flex;
-	width: 60px;
-	height: 20px;
 }
 
 .social__link {
