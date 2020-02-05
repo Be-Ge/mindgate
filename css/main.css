@@ -181,20 +181,16 @@ div.circle.expand{
 /* end burger */
 /* end header */
 .background__main-section {
-	position: relative;
-	width: 1128px;
-	height: 462px;
+	display: flex;
 	background: url(../img/index-background.svg) no-repeat;
-	top: 138px;
+
 
 }
 
 .background__main {
 	width: 896px;
 	height: 193px;
-	position: absolute;
-	top: 97px;
-	left: 121px;
+	margin-top: 200px;
 	background-color: #002749;
 	font-weight: 600;
 	font-size: 14px;
@@ -203,13 +199,8 @@ div.circle.expand{
 
 .main__title {
 	color: #ffffff;
-	position: absolute;
-	width: 758px;
-	left: 26px;
-	right: 112px;
-	top: 42px;
-	bottom: 71px;
-	margin: 0px;
+	width: 800px;
+	margin: 40px 0 0 20px;
 }
 
 .main__title-decoration {
@@ -217,19 +208,13 @@ div.circle.expand{
 }
 
 .arrow {
-	position: absolute;
 	width: 150px;
 	height: 50px;
-	left: 700px;
-    top: 150px;
 	cursor: pointer;
 }
 
 /* start footer */
 .footer {
-	position: relative;
-	height: 122px;
-	top: 188px;
     display: flex;
     justify-content: flex-end;
 	align-items: center;
