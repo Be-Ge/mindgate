@@ -55,10 +55,10 @@ ul {
 	text-transform: uppercase;
 }
 
-li a {
+.nav-menu li a {
 	display: block;
 	text-align: center;
-	margin: 0 60px;
+	margin: 0 0 0 80px;
 	color: #002749;
 }
 
@@ -71,9 +71,10 @@ div.burger {
 	position: relative;
 	width: 60px;
 	height: 60px;
-	left: 100px;
+	left: 180px;
     top: 30px;
-	cursor: pointer;	
+	cursor: pointer;
+	margin-left: 46px;	
 }
 
 div.x, div.y, div.z {
@@ -241,12 +242,15 @@ div.circle.expand{
 	position: relative;
 	height: 122px;
 	top: 188px;
+    display: flex;
+    justify-content: flex-end;
+	align-items: center;
+	margin: 0;
+    padding: 0;
 }
 
 .certification {
 	position: absolute;
-	width: 252px;
-	height: 19px;
 	left: 80px;
 	font-size: 11px;
 	line-height: 19px;
@@ -256,15 +260,15 @@ div.circle.expand{
 
 .social {
 	display: flex;
-	width: 41px;
-	height: 19px;
+	width: 60px;
+	height: 20px;
 }
 
 .social__link {
 	font-size: 11px;
 	line-height: 19px;
 	letter-spacing: 0.02em;
-	padding-right: 46px;
+	padding-left: 46px;
 }
 
 /* end footer */
