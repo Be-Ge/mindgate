@@ -10,9 +10,8 @@
 	margin-right: auto;
 	margin-left: auto; 
 }
-
+/*  start header*/
 .header {
-	display: inline-block;
 	margin: 0px;
 	position: fixed;
 	top: 0px;
@@ -22,14 +21,12 @@
 	z-index: 1;  
 }
 
-.header-container {
-	display: inline-block;
-}
-
-.logo-link {
-	position: absolute;
-	top: 30%;
-	left: 80px;
+.header-container {	
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+	align-items: center;
+	padding-top: 40px;
 }
 
 ul {
@@ -46,8 +43,6 @@ ul {
 .nav-menu {
 	font-size: 11px;
 	font-weight: 800;
-	position: absolute;
-	top: calc(50% - 14px/2 + 8px);
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -66,46 +61,37 @@ a {
 	text-decoration: none;
 }
 
+/* start burger */
 
 div.burger {
 	position: relative;
 	width: 60px;
 	height: 60px;
-	left: 180px;
-    top: 30px;
 	cursor: pointer;
 	margin-left: 46px;	
 }
 
-div.x, div.y, div.z {
-	position: absolute;
-	margin: auto;
-	top: 0px;
-	bottom: 0px;		
+div.x, div.y, div.z {		
 	background: #002749;
 	border-radius:2px;
-	-webkit-transition: all 200ms ease-out;
-	-moz-transition: all 200ms ease-out;
-	-ms-transition: all 200ms ease-out;
-	-o-transition: all 200ms ease-out;
 	transition: all 200ms ease-out;
+	margin-bottom: 9px;
 }	
 
 div.y {
 	height: 2px;
 	width: 44px;
-	position: absolute;
-	top: 18px;
-	right: 26px;
+	margin-left: -10px;
 }
 
 div.x, div.z { 
 	height: 2px;
-	 width: 33px; 
+	width: 33px; 
 }
 
 div.z{
 	top: 37px;
+	margin-bottom: 0;
 }
 
 div.collapse{
@@ -192,6 +178,8 @@ div.circle.expand{
 
 }
 
+/* end burger */
+/* end header */
 .background__main-section {
 	position: relative;
 	width: 1128px;
