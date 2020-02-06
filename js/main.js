@@ -1,10 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var burger = document.querySelector('.burger'),
-    body = document.querySelector('body');
-  
-    if (burger) {
-      burger.addEventListener('click', function () {
-        body.classList.toggle('menu-opened')
-      })
-    }
+    const burger = document.querySelector('.burger'),
+    header = document.querySelector('.header');
+
+    burger.addEventListener('click',  () => {
+        container.classList.toggle('menu-opened');
+    })
 })

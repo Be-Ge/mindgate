@@ -6,29 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>О компании</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="img/favic.png" type="image/x-icon">
 	<link rel="apple-touch-icon" href="img/favic.png" sizes="50x50">
 	<link rel="apple-touch-icon" href="img/favic.png" sizes="72x72">
 </head>
 <body>
-    <header>
+    <header class="header menu-opened">
         <div class="header-container container">
-			<a href="index.html" class=".logo-link">
-				<img class="logo" src="img/logo.svg" alt="logo">
+			<a href="index.html" class="logo-link">
+                <img class="logo" src="img/logo.svg" alt="logo"/>
+                <img class="menu-opened" src="img/logo-white.svg" alt="logo"/>
 			</a>
-            <nav>
-                <ul>
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="about-company.html">О компании</a></li>
-                    <li><a href="services.html">Услуги</a></li>
-                    <li><a href="contacts.html">Контакты</a></li>
+            <nav class="navigation">
+                <ul class="nav-menu">
+                    <li><a class="menu__main" href="index.html">Главная</a></li>
+                    <li><a class="menu__about-company" href="about-company.html">О компании</a></li>
+                    <li><a class="menu__services" href="services.html">Услуги</a></li>
+                    <li><a class="menu__contacts" href="contacts.html">Контакты</a></li>
                 </ul>
-                <button class="burger-container" onclick="myFunction(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </button>
+                <div class="burger">
+                    <div class="x"></div>
+                    <div class="y"></div>
+                    <div class="z"></div>
+                </div>    
             </nav>
         </div>
     </header>
