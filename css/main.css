@@ -3,6 +3,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+	overflow: hidden;
+}
+
 .container {
 	width: 100%;
 	padding-left: 15px;
@@ -98,15 +102,6 @@ div.z{
 	margin-bottom: 0;
 }
 
-div.collapse{
-	top: 20px;
-	background:#002749;;
-	-webkit-transition: all 70ms ease-out;
-	-moz-transition: all 70ms ease-out;
-	-ms-transition: all 70ms ease-out;
-	-o-transition: all 70ms ease-out;
-	transition: all 70ms ease-out;
-}
 
 /* end burger */
 /* end header */
@@ -225,7 +220,38 @@ body.window-menu .burger > div {
 	transform: rotate(-45deg);
 }
 
+body.window-menu {
 
+}
 
+.logo-white {
+	margin-top: 40px;
+}
+
+.navigation-window {
+	display: flex;
+    justify-content: flex-end;
+    margin-right: 230px;
+	font-size: 24px;
+	text-align: right;
+}
+
+.nav-window a {
+	color: #ffffff;
+}
+
+.social-window  {
+	display: flex;
+    justify-content: flex-end;
+	margin-right: 230px;
+	margin-top: 100px;
+	text-align: right;
+	flex-direction: column;
+}
+
+.social-window a {
+	font-size: 11px;;
+	color: #ffffff;
+}
 
 /* end burger inside */
