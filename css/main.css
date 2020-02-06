@@ -233,10 +233,15 @@ body.window-menu {
     margin-right: 230px;
 	font-size: 24px;
 	text-align: right;
+	font-weight: 600;
 }
 
 .nav-window a {
 	color: #ffffff;
+}
+
+.nav-window li {
+	margin-bottom: 40px;
 }
 
 .social-window  {
@@ -253,4 +258,7 @@ body.window-menu {
 	color: #ffffff;
 }
 
+.social-window li {
+	margin-bottom: 30px;
+}
 /* end burger inside */
