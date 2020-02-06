@@ -12,4 +12,4 @@ const burgerClose = document.querySelector('.burger-close');
 const windowMenu = document.querySelector('.window-menu');
 
 burgerOpen.onclick = (e) => windowMenu.classList.add('show');
-burgerClose.onclick = (e) => windowMenu.classList.delete('show');
+burgerClose.onclick = (e) => windowMenu.classList.remove('show');
