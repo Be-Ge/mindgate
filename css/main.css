@@ -113,14 +113,15 @@ div.collapse{
 .background__main-section {
 	display: flex;
 	background: url(../img/index-background.svg) no-repeat;
-
+	margin-top: 127px;
+	padding-bottom: 70px;
 
 }
 
 .background__main {
 	width: 896px;
 	height: 193px;
-	margin-top: 200px;
+	margin-top: 7%;
 	background-color: #002749;
 	font-weight: 600;
 	font-size: 14px;
@@ -143,11 +144,15 @@ div.collapse{
 	cursor: pointer;
 }
 
+.arrow-img {
+	margin: 5% 1% 2% 75%;
+}
+
 /* start footer */
 .footer {
 	display: flex;
     justify-content: space-around;
-	margin: 0;
+	margin-top: 50px;
     padding: 0;
 }
 
