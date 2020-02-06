@@ -186,8 +186,7 @@ div.z{
 
 .window-menu.show {
 	transform: translate(0%, 0%);
-	background: #002749;
-	background-image: url(../img/lines.svg) no-repeat;
+	background: #002749 url(../img/lines.svg) no-repeat;
 }
 
 body.window-menu .burger > div {
@@ -197,7 +196,7 @@ body.window-menu .burger > div {
 .burger-close {
 	position: absolute;
 	right: 80px;
-	top: 50px;
+	top: 40px;
 	width: 32px;
 	height: 32px;
 	opacity: 0.3;
