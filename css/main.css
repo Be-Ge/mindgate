@@ -201,8 +201,8 @@ body.window-menu .burger > div {
 
 .burger-close {
 	position: absolute;
-	right: 32px;
-	top: 32px;
+	right: 80px;
+	top: 60px;
 	width: 32px;
 	height: 32px;
 	opacity: 0.3;
