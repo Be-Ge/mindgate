@@ -3,6 +3,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html {
+	font-size: 11px;
+}
+
 body {
 	overflow: hidden;
 }
@@ -45,7 +49,7 @@ ul {
 }
 
 .nav-menu {
-	font-size: 11px;
+	font-size: 1rem;
 	font-weight: 800;
 	display: flex;
 	justify-content: space-around;
@@ -107,25 +111,31 @@ div.z{
 /* end header */
 .background__main-section {
 	display: flex;
-	background: url(../img/index-background.svg) no-repeat;
+	background: url(../img/bg.jpg) no-repeat;
 	margin-top: 127px;
 	padding-bottom: 70px;
-
+	max-width: 90%;
+    height: calc(100vh - (24px + 127px + 70px));
+	background-size: cover;
 }
 
 .background__main {
-	width: 896px;
-	height: 193px;
+	width: 85%;
+	height: 50%;
 	margin-top: 7%;
 	background-color: #002749;
 	font-weight: 600;
-	font-size: 14px;
+	font-size: 2rem;
 	letter-spacing: 0.02em;
+	align-items: center;
+	margin-left: 5%;
+	position: relative;
+	
 }
 
 .main__title {
 	color: #ffffff;
-	width: 800px;
+	width: 90%;
 	margin: 40px 0 0 20px;
 }
 
@@ -134,36 +144,36 @@ div.z{
 }
 
 .arrow {
-	width: 150px;
-	height: 50px;
+	position: absolute;
+	right: 60px;
+	bottom: 30px;
 	cursor: pointer;
 }
 
-.arrow-img {
-	margin: 5% 1% 2% 75%;
-}
 
 /* start footer */
 .footer {
 	display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 	margin-top: 50px;
     padding: 0;
 }
 
 .certification {
-	font-size: 11px;
+	font-size: 1rem;
 	line-height: 19px;
 	letter-spacing: 0.02em;
 	color: rgba(0, 39, 73, 0.66);
+	margin-left: 80px;
 }
 
 .social {
 	display: flex;
+	margin-right: 70px;
 }
 
 .social__link {
-	font-size: 11px;
+	font-size: 1rem;
 	line-height: 19px;
 	letter-spacing: 0.02em;
 	padding-left: 46px;
@@ -186,7 +196,8 @@ div.z{
 
 .window-menu.show {
 	transform: translate(0%, 0%);
-	background: #002749 url(../img/lines.svg) no-repeat;
+	background: #002749 url(../img/lines.png) no-repeat;
+	background-size: cover;
 }
 
 body.window-menu .burger > div {
@@ -231,7 +242,7 @@ body.window-menu {
 	display: flex;
     justify-content: flex-end;
     margin-right: 230px;
-	font-size: 24px;
+	font-size: 3rem;
 	text-align: right;
 	font-weight: 600;
 }
@@ -254,7 +265,7 @@ body.window-menu {
 }
 
 .social-window a {
-	font-size: 11px;;
+	font-size: 1rem;;
 	color: #ffffff;
 }
 
@@ -262,3 +273,9 @@ body.window-menu {
 	margin-bottom: 30px;
 }
 /* end burger inside */
+
+.section__bg {
+	display: flex;
+
+}
+	
