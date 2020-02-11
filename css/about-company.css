@@ -1,26 +1,101 @@
-body {
-    color: #002749;
+.company {
+    margin: 10rem 0 0 0;
+    position: relative;
+    background-color: #F1F1F1;
 }
 
 .about-company {
+    width: 50%;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 4rem;
     line-height: 56px;
     letter-spacing: 0.02em;
     background: #ffffff;
-    width: 50%;
-    height: 50%;
+    color: #002749;
+    height: 46rem;
+    padding: 4rem 20rem 40rem 20rem;
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    z-index: 4;
 } 
 
-.company {
-    margin: 200px 0 0 200px;
+.img__company-main {
+    display: flex;
+    justify-content: flex-end;
+    background: url(../img/bg_company.png) no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 46rem;
+    margin-left: auto;
+    z-index: 5;
 }
 
 .bg__company-main {
+    background-color: #F1F1F1;
+
+}
+
+.bg__quotes {
+    color: #002749;;
+}
+
+.bg__quotes.container {
+    width: 100rem;
+    background-color: white;
+    position: relative;
+    top: -30rem;
+    z-index: 6;
+}
+
+.quotes {
+    font-size: 2rem;
+    line-height: 34px;
+    padding-top: 9rem;
+    width: 70rem;
+    margin: auto;
+}
+
+.quotes::before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 120px;
+    left: 10rem;
+    top: 8rem;
+    background: #7DCEF1;
+}
+
+.quotes__main {
+    display: flex; 
+    justify-content: space-around;
+    padding-bottom: 4rem;
+}
+
+.quotes__text {
+    display: inline-block;
+    width: 31rem;
+    padding-top: 10rem;
+    font-size: 1.2rem;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+.company__types {
     display: flex;
-    justify-content: flex-end;
-    background: url(../img/bg_company.svg) no-repeat;
-    width: 50%;
-    height: 50%;
-    z-index: 5;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+
+.company__type {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 32rem;
+}
+
+.company__type p, h3 {
+    font-size: 1.2rem;
+    line-height: 24px;
+    letter-spacing: 0.01em;
 }

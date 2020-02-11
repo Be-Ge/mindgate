@@ -192,7 +192,7 @@ div.z{
     top: 0;
     transform: translate(100%,0%);
 	transition: all .3s;
-	z-index: 3;
+	z-index: 3900;
 }
 
 .window-menu.show {
