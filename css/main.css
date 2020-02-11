@@ -111,6 +111,7 @@ div.z{
 /* end header */
 .background__main-section {
 	display: flex;
+	align-items: center;
 	background: url(../img/bg.jpg) no-repeat;
 	margin-top: 13rem;
 	padding-bottom: 7rem;
@@ -122,15 +123,12 @@ div.z{
 .background__main {
 	width: 85%;
 	height: 30rem;
-	margin-top: 10rem;
 	background-color: #002749;
 	font-weight: 600;
 	font-size: 2rem;
 	letter-spacing: 0.02em;
-	align-items: center;
 	margin-left: 12rem;
 	position: relative;
-	
 }
 
 .main__title {
