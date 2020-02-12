@@ -5,7 +5,7 @@
 }
 
 .about-company {
-    width: fit-content;
+    width: 50%;
     font-weight: bold;
     font-size: 4rem;
     line-height: 56px;
@@ -13,7 +13,7 @@
     background: #ffffff;
     color: #002749;
     height: 46rem;
-    padding: 4rem 10% 40rem 25%;
+    padding: 4rem 0 40rem 25%;
     margin: 0;
     position: absolute;
     top: 0px;
@@ -119,29 +119,51 @@ h2 {
 }
 
 .digital__types {
-    height: 100rem;
     background-color: white;
     margin-top: 10rem;
 }
 
-.digital__type-pr {
-    flex-direction: column;
-    width: 35rem;
+.digital__type {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
 }
 
-.digital__type-content {
-    flex-direction: column;
-    width: 35rem;
+.digital__type h3, p {
+    width: 32rem;
 }
 
+.digital__type > div {
+    flex-basis: 50%;
+    box-sizing: border-box;
+}
 
+.digital__type > .type-desciription {
+    padding: 9rem;
+}
+
+.digital__type .img-wrap__img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.digital__type:nth-of-type(2n) .type-desciription {
+    padding: 9rem 0;
+}
+
+.digital__type:nth-of-type(2n) .img-wrap {
+    order: -1;
+    flex-basis: 45%;
+}
 
 /* blue bg */
 
 .bg__digital-blue {
     width: 100%;
     height: 40rem;
-    background: #7DCEF1;
+    background: #7DCEF1 url(../img/bg-blue.jpg) no-repeat;
+    background-size: cover;
 
 }
 
@@ -160,6 +182,7 @@ a.blue__arrow-link {
     line-height: 13px;
     display: flex;
     align-items: center;
+    justify-content: center;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: #002749;
@@ -168,6 +191,10 @@ a.blue__arrow-link {
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.blue__arrow-link p {
+    width: fit-content;
 }
 
 .blue__arrow {
