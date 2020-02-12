@@ -1,0 +1,15 @@
+.bg__contacts.container {
+    width: 100rem;
+    background-color: #002749;;
+    position: relative;
+    top: -30rem;
+    z-index: 6;
+}
+
+.contact__info {
+    color: white;
+}
+
+.contact__info-item {
+    
+}

@@ -7,24 +7,25 @@
     <title>Услуги</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/services.css">
     <link rel="shortcut icon" href="img/favic.png" type="image/x-icon">
 	<link rel="apple-touch-icon" href="img/favic.png" sizes="50x50">
 	<link rel="apple-touch-icon" href="img/favic.png" sizes="72x72">
 </head>
 <body>
-    <header class="header menu-opened">
+    <header class="header">
         <div class="header-container container">
 			<a href="index.html" class="logo-link">
                 <img class="logo" src="img/logo.svg" alt="logo"/>
 			</a>
             <nav class="navigation">
                 <ul class="nav-menu">
-                    <li><a class="menu__main" href="index.html">Главная</a></li>
-                    <li><a class="menu__about-company" href="about-company.html">О компании</a></li>
-                    <li><a class="menu__services" href="services.html">Услуги</a></li>
-                    <li><a class="menu__contacts" href="contacts.html">Контакты</a></li>
+                    <li><a class="menu__item" href="index.html">Главная</a></li>
+                    <li><a class="menu__item" href="about-company.html">О компании</a></li>
+                    <li><a class="menu__item" href="services.html">Услуги</a></li>
+                    <li><a class="menu__item" href="contacts.html">Контакты</a></li>
                 </ul>
-                <div class="burger">
+                <div class="burger burger-open">
                     <div class="x"></div>
                     <div class="y"></div>
                     <div class="z"></div>
@@ -32,36 +33,69 @@
             </nav>
         </div>
     </header>
-    <section>
-        <h1>Услуги</h1>
+    <div class="window-menu hidden">
+        <span class="burger-close"></span>
+        <a href="index.html" class="logo-link">
+            <img class="logo-white" src="img/logo-white.svg" alt="logo"/>
+        </a>
+        <nav class="navigation-window">
+            <ul class="nav-window">
+                <li><a class="menu__main-window" href="index.html">Главная</a></li>
+                <li><a class="menu__about-company-window" href="about-company.html">О компании</a></li>
+                <li><a class="menu__services-window" href="services.html">Услуги</a></li>
+                <li><a class="menu__contacts-window" href="contacts.html">Контакты</a></li>
+            </ul> 
+        </nav> 
+        <ul class="social-window">
+                <li><a class="social__link-window" href="https://twitter.com/?lang=ru">Twitter</a></li>
+                <li><a class="social__link-window" href="https://www.facebook.com/">Facebook</a></li>
+        </ul> 
+    </div>
+    <section class="company">
+        <h1 class="about-company">Услуги</h1>
+        <div class="img__company-main">
+        </div>
     </section>
-    <section>
-        <div>
-            Все что нужно для продвижения вашего бренда в digital. Ни больше и ни меньше. Комплексный подход и реализация под ключ.
+    <section class="bg__company-main">
+        <div class="bg__services container">
+            <div class="box__services">
+                <div class="services__main-text">
+                    Все что нужно для продвижения вашего бренда в digital. Ни больше и ни меньше. Комплексный подход и реализация под ключ.
+                </div>
+                <div class="text-influence">
+                    <h2>Microinfluencer—маркетинг</h2>
+                    <p>
+                        Работа с лидерами общественного мнения всегда полезна для вас и вашего бизнеса. Люди верят друг другу, а не прямой рекламе, а у нас более 3000 блоггеров партеров готовых рассказать о вашем Бренде своей аудитории.
+                        <br>
+                        <br>
+                        Подберем именно тех, кто интересен вашей аудитории. Блоггеры могут приехать к вам в офис и рассказать о вашем бизнесе, могут прорекламировать и протестировать ваш товар. 
+                        Благодаря собственным методикам работы построим полномасштабную стратегию работы с микро-инфлюенсерами, превосходящую по результатам любые «звездные» кампании и за гораздо более скромные бюджеты. Для работы с блоггерами не нужны миллионы рублей в месяц. 
+                    </p>
+                </div>
+            </div>
+            <div class="services__blue">
+                <div class="box__services">
+                    <div class="text-perform">
+                        <h2>Perfomance—маркетинг</h2>
+                        <p>
+                            Сделаем вашу рекламу такой, чтобы она тронула сердце и кошелек каждого потенциального клиента.<br>
+                            Наша работа делится на несколько этапов:<br>
+                            <br>
+                            Анализ и исследование аудитории – мы всегда находим именно ваших потенциальных клиентов.<br> 
+                            <br>
+                            Проведение тестовой рекламной кампании – чтобы использовать бюджет максимально эффективно, мы проводим тесты перед запуском каждой кампании. Отбираем только реально работающие объявления и даем клиенту точное понимание будущей результативности рекламной кампании.<br>
+                            <br>
+                            Запуск полномасштабной рекламной кампании и постоянный контроль за ее результативностью.<br> 
+                            <br>
+                            Наша главная задача что бы не один рубль клиента не пропал впустую. Мы выжмем все соки из рекламы, чтобы привлечь вам клиентом и донести до вашей аудитории все сообщения.
+                        </p>
+                        <a class="white__arrow-link" href="contacts.html">
+                            <div>связаться с нами</div><img class="white__arrow" src="img/arrow.svg" alt="arrow">
+                         </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <h2>Microinfluencer—маркетинг</h2>
-        <div>
-            Работа с лидерами общественного мнения всегда полезна для вас и вашего бизнеса. Люди верят друг другу, а не прямой рекламе, а у нас более 3000 блоггеров партеров готовых рассказать о вашем Бренде своей аудитории.
-
-            Подберем именно тех, кто интересен вашей аудитории. Блоггеры могут приехать к вам в офис и рассказать о вашем бизнесе, могут прорекламировать и протестировать ваш товар. 
-            Благодаря собственным методикам работы построим полномасштабную стратегию работы с микро-инфлюенсерами, превосходящую по результатам любые «звездные» кампании и за гораздо более скромные бюджеты. Для работы с блоггерами не нужны миллионы рублей в месяц. 
-        </div>
-    </section>
-    <section>
-        <h2>Perfomance—маркетинг</h2>
-        <div>
-            Сделаем вашу рекламу такой, чтобы она тронула сердце и кошелек каждого потенциального клиента. 
-            Наша работа делится на несколько этапов: 
-
-            Анализ и исследование аудитории – мы всегда находим именно ваших потенциальных клиентов. 
-
-            Проведение тестовой рекламной кампании – чтобы использовать бюджет максимально эффективно, мы проводим тесты перед запуском каждой кампании. Отбираем только реально работающие объявления и даем клиенту точное понимание будущей результативности рекламной кампании. 
-
-            Запуск полномасштабной рекламной кампании и постоянный контроль за ее результативностью. 
-
-            Наша главная задача что бы не один рубль клиента не пропал впустую. Мы выжмем все соки из рекламы, чтобы привлечь вам клиентом и донести до вашей аудитории все сообщения.
-        </div>
-        <a href="contacts.html">связаться с нами</a>
     </section>
     <footer>
         <div class="footer container">

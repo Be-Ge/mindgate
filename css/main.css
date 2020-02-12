@@ -219,6 +219,7 @@ body.window-menu .burger > div {
 .burger-close:hover {
 	opacity: 1;
 }
+
 .burger-close:before, .burger-close:after {
 	position: absolute;
 	left: 1rem;
@@ -227,15 +228,13 @@ body.window-menu .burger > div {
 	width: 0.2rem;
 	background-color: #ffffff;
 }
+
 .burger-close:before {
 	transform: rotate(45deg);
 }
+
 .burger-close:after {
 	transform: rotate(-45deg);
-}
-
-body.window-menu {
-
 }
 
 .logo-white {
@@ -282,3 +281,44 @@ body.window-menu {
 	display: flex;
 }
 	
+/* section page name */
+
+.company {
+    margin: 10rem 0 0 0;
+    position: relative;
+    background-color: #F1F1F1;
+}
+
+.about-company {
+    width: 50%;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    background: #ffffff;
+    color: #002749;
+    height: 46rem;
+    padding: 4rem 0 40rem 25%;
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    z-index: 4;
+} 
+
+.img__company-main {
+    display: flex;
+    justify-content: flex-end;
+    background: url(../img/bg_company.png) no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 46rem;
+    margin-left: auto;
+    z-index: 5;
+}
+
+.bg__company-main {
+    background-color: #F1F1F1;
+
+}
+
+

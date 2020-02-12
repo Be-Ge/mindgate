@@ -7,24 +7,25 @@
     <title>Контакты</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contacts.css">
     <link rel="shortcut icon" href="img/favic.png" type="image/x-icon">
 	<link rel="apple-touch-icon" href="img/favic.png" sizes="50x50">
 	<link rel="apple-touch-icon" href="img/favic.png" sizes="72x72">
 </head>
 <body>
-    <header class="header menu-opened">
+    <header class="header">
         <div class="header-container container">
 			<a href="index.html" class="logo-link">
                 <img class="logo" src="img/logo.svg" alt="logo"/>
 			</a>
             <nav class="navigation">
                 <ul class="nav-menu">
-                    <li><a class="menu__main" href="index.html">Главная</a></li>
-                    <li><a class="menu__about-company" href="about-company.html">О компании</a></li>
-                    <li><a class="menu__services" href="services.html">Услуги</a></li>
-                    <li><a class="menu__contacts" href="contacts.html">Контакты</a></li>
+                    <li><a class="menu__item" href="index.html">Главная</a></li>
+                    <li><a class="menu__item" href="about-company.html">О компании</a></li>
+                    <li><a class="menu__item" href="services.html">Услуги</a></li>
+                    <li><a class="menu__item" href="contacts.html">Контакты</a></li>
                 </ul>
-                <div class="burger">
+                <div class="burger burger-open">
                     <div class="x"></div>
                     <div class="y"></div>
                     <div class="z"></div>
@@ -32,31 +33,52 @@
             </nav>
         </div>
     </header>
-    <section>
-        <h1>
-            Контакты
-        </h1>
-    </section>
-    <section>
-        <div>
-            адрес: 
-            Ленинградский проспект, д.36, стр.11
-
-            Телефон:
-            +7 (495) 741—92—28
-
-            email:
-            hello@mindgate.ru
+    <div class="window-menu hidden">
+        <span class="burger-close"></span>
+        <a href="index.html" class="logo-link">
+            <img class="logo-white" src="img/logo-white.svg" alt="logo"/>
+        </a>
+        <nav class="navigation-window">
+            <ul class="nav-window">
+                <li><a class="menu__main-window" href="index.html">Главная</a></li>
+                <li><a class="menu__about-company-window" href="about-company.html">О компании</a></li>
+                <li><a class="menu__services-window" href="services.html">Услуги</a></li>
+                <li><a class="menu__contacts-window" href="contacts.html">Контакты</a></li>
+            </ul> 
+        </nav> 
+        <ul class="social-window">
+                <li><a class="social__link-window" href="https://twitter.com/?lang=ru">Twitter</a></li>
+                <li><a class="social__link-window" href="https://www.facebook.com/">Facebook</a></li>
+        </ul> 
+    </div>
+    <section class="company">
+        <h1 class="about-company">Контакты</h1>
+        <div class="img__company-main">
         </div>
-        <form action="">
-            <input type="text">
-            <input type="text">
-            <input type="text">
-            <button>Отправить </button>
-        </form>
     </section>
     <section>
-        <div id="googleMap"></div>
+        <div class="bg__contacts container">
+            <div class="contact__info">
+                <span class="contact__info-item">адрес:</span><br>
+                Ленинградский проспект, д.36, стр.11
+
+                <span class="contact__info-item">Телефон:</span><br>
+                +7 (495) 741—92—28
+
+                <span class="contact__info-item">email:</span><br>
+                hello@mindgate.ru
+            </div>
+            <div>
+                <form action="">
+                    <input type="text">
+                    <input type="text">
+                    <input type="text">
+                    <button>Отправить </button>
+                </form>
+            </div>
+            <div id="googleMap"></div>
+        </div>
+        
     </section>
     <footer>
         <div class="footer container">
