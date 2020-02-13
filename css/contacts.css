@@ -4,12 +4,34 @@
     position: relative;
     top: -30rem;
     z-index: 6;
+    display: flex;
 }
 
 .contact__info {
     color: white;
+    width: 50%;
+    padding: 6rem;
+}
+
+.nav-menu li::after:hover {
+    content: '';
+    width: 100px;
+    height: 100px;
+    background: #7DCEF1;
+    border-radius: 10px;
+}
+
+.contact__form {
+    width: 50%;
+    padding: 6rem;
+}
+
+.contact__form input {
+    display: block;
+    margin-top: 2rem;
 }
 
 .contact__info-item {
-    
+    font-size: 1rem;
+    text-transform: uppercase;
 }
