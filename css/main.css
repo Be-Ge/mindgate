@@ -108,6 +108,25 @@ div.z{
 	margin-bottom: 0;
 }
 
+.menu__item::after {
+	content: '';
+	position: absolute;
+	top: calc(100% + 10px);
+	left: 50%;
+	display: block;
+	width: 8px;
+	height: 8px;
+	background-color: #92D2F4;
+	border-radius: 50%;
+	transform: scale(0, 0) translateX(-50%);
+	transition: transform 0.3s cubic-bezier(0.61, 0, 0.405, 1.63);
+}
+
+.menu__item-active::after,
+.menu__item:hover::after {
+	transform: scale(1, 1) translateX(-50%);
+}
+
 
 /* end burger */
 /* end header */
@@ -189,7 +208,8 @@ div.z{
 /* burger inside*/
 
 .window-menu {
-	position: absolute;
+	position: fixed;
+	overflow: auto;
     width: 100%;
     height: 100%;
     top: 0;
@@ -262,7 +282,7 @@ body.window-menu .burger > div {
 	display: flex;
     justify-content: flex-end;
 	margin-right: 23rem;
-	margin-top: 30rem;
+	margin-top: 10rem;
 	text-align: right;
 	flex-direction: column;
 }
