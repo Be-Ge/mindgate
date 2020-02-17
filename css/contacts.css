@@ -73,6 +73,7 @@
     background-color: transparent;
     outline: none;
     transition: 0.3s;
+    resize: vertical;
 }
 
 .form__input:focus ~.form__label,
