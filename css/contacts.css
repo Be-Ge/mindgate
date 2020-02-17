@@ -44,6 +44,7 @@
     text-transform: uppercase;
     color: #FFFFFF;
     transition: 0.3s;
+    margin-top: 2rem;
 }
 
 .form__input, .form__btn {
@@ -74,18 +75,21 @@
     outline: none;
     transition: 0.3s;
     resize: vertical;
+    margin-top: 2rem;
 }
 
-.form__input:focus ~.form__label,
-.form__input:not(:placeholder-shown) ~.form__label {
+
+.form__input:not(:placeholder-shown):focus + .form__label {
     top: -2rem;
     font-size: 0.5rem;
     color: #e0e0ee;
 }
 
 .form__btn {
+    font-weight: bold;
     background-color: transparent;
     border: none;
     cursor: pointer;
     padding: 10px 0;
+    text-transform: uppercase;
 }
