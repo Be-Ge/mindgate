@@ -62,6 +62,7 @@ ul {
 
 .nav-menu li a {
 	display: block;
+	position: relative;
 	text-align: center;
 	margin: 0 0 0 8rem;
 	color: #002749;
