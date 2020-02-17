@@ -6,7 +6,7 @@
     width: 100rem;
     background-color: white;
     position: relative;
-    top: -30rem;
+    margin-top: -30rem;
     z-index: 6;
 }
 

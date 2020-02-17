@@ -69,12 +69,21 @@
                 hello@mindgate.ru
             </div>
             <div class="contact__form">
-                <form action="">
-                    <div>Напишите нам</div>
-                    <input type="text" name="name" value="Ваше имя*">
-                    <input type="email" name="email" value="Email*" >
-                    <input type="text" name="message" value="Сообщение*">
-                    <button>Отправить</button>
+                <form class="form">
+                    <div class="form__title" >Напишите нам</div>
+                    <div class="form__group">
+                    <input class="form__input" placeholder="" type="text" name="name">
+                    <label class="form__label">Ваше имя*</label>
+                    </div>
+                    <div class="form__group">
+                    <input class="form__input" placeholder="" type="email" name="email">
+                    <label class="form__label">Email*</label>
+                    </div>
+                    <div class="form__group">
+                    <input class="form__input" placeholder="" type="text" name="message">
+                    <label class="form__label">Сообщение*</label>
+                    </div>
+                    <button class="form__btn">Отправить &#8594;</button>
                 </form>
             </div>
             <div id="googleMap"></div>
