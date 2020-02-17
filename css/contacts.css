@@ -82,3 +82,10 @@
     font-size: 0.5rem;
     color: #e0e0ee;
 }
+
+.form__btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px 0;
+}
