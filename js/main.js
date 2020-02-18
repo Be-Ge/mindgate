@@ -20,7 +20,7 @@ burgerClose.onclick = (e) => {
   document.body.classList.remove('overflow')
 };
 
-function initMap {
+function initMap () {
   var opt = {
     center: {lat: 55.788527, lng:37.567979},
     zoom: 15
