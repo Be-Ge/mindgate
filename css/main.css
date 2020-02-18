@@ -20,7 +20,9 @@ body.overflow {
 	margin-right: auto;
 	margin-left: auto; 
 }
+
 /*  start header*/
+
 .header {
 	margin: 0;
 	position: fixed;
@@ -66,6 +68,7 @@ ul {
 	text-align: center;
 	margin: 0 0 0 8rem;
 	color: #002749;
+	transition: all .3s;
 }
 
 a {
@@ -84,6 +87,10 @@ div.burger {
 	cursor: pointer;
 	margin-left: 4.5rem;	
 	margin-right: 5rem;
+}
+
+ {
+	background: #7DCEF1;
 }
 
 div.x, div.y, div.z {		
@@ -126,6 +133,10 @@ div.z{
 .menu__item-active::after,
 .menu__item:hover::after {
 	transform: scale(1, 1) translateX(-50%);
+}
+
+.menu__item:hover {
+	color: #7DCEF1;
 }
 
 
@@ -204,6 +215,10 @@ div.z{
 	color: #002749;
 }
 
+.social__link:hover {
+	color: #7DCEF1;
+}
+
 /* end footer */
 
 /* burger inside*/
@@ -274,6 +289,11 @@ body.window-menu .burger > div {
 .nav-window a {
 	color: #ffffff;
 }
+ 
+.nav-window a:hover {
+	color: #7DCEF1;
+}
+
 
 .nav-window li {
 	margin-bottom: 4rem;
@@ -291,6 +311,10 @@ body.window-menu .burger > div {
 .social-window a {
 	font-size: 1rem;;
 	color: #ffffff;
+}
+
+.social-window a:hover {
+	color: #7DCEF1;
 }
 
 .social-window li {
