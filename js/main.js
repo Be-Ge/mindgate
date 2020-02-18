@@ -21,8 +21,9 @@ burgerClose.onclick = (e) => {
 };
 
 function initMap () {
+  var pos = {lat: 55.788527, lng:37.567979};
   var opt = {
-    center: {lat: 55.788527, lng:37.567979},
+    center: pos,
     zoom: 15,
     styles: [
       {
@@ -186,6 +187,7 @@ function initMap () {
     ]
   }
   var map = new google.maps.Map(document.getElementById('map'), opt)
+  var marker = new google.maps.Marker({position: pos, map: map, title: "Ленинградский проспект, д.36"});
 }
 
 
