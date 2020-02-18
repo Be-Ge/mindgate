@@ -93,3 +93,8 @@
     padding: 10px 0;
     text-transform: uppercase;
 }
+
+#map {
+    height: 780px;
+    width: 100%;
+}

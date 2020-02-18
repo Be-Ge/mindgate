@@ -19,3 +19,12 @@ burgerClose.onclick = (e) => {
   windowMenu.classList.remove('show')
   document.body.classList.remove('overflow')
 };
+
+function initMap {
+  var opt = {
+    center: {lat: 55.788527, lng:37.567979},
+    zoom: 15
+  }
+  var map = new google.maps.Map(document.getElementById('map'), opt)
+}
+
