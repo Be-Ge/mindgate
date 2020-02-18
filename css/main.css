@@ -213,6 +213,7 @@ div.z{
 	letter-spacing: 0.02em;
 	padding-left: 5rem;
 	color: #002749;
+	transition: all .3s;
 }
 
 .social__link:hover {
@@ -288,6 +289,7 @@ body.window-menu .burger > div {
 
 .nav-window a {
 	color: #ffffff;
+	transition: all .3s;
 }
  
 .nav-window a:hover {
@@ -311,6 +313,7 @@ body.window-menu .burger > div {
 .social-window a {
 	font-size: 1rem;;
 	color: #ffffff;
+	transition: all .3s;
 }
 
 .social-window a:hover {
