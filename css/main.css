@@ -379,7 +379,8 @@ body.window-menu .burger > div {
 
 /* mobile version */
 
-@media screen and ( max-width: 768px ) {
+@media  ( max-width: 768px ) {
+
 	.header {
 		margin: 0;
 		position: fixed;
@@ -397,9 +398,20 @@ body.window-menu .burger > div {
 		padding-top: 4rem;
 	}
 
-	.nav-menu {
-		visibility: hidden;
+	.logo-link {
+		margin-left: 4%;
 	}
+
+	.navigation {
+		display: flex;
+    	justify-content: flex-end
+	}
+
+	.nav-menu {
+		display: none;
+	}
+
+
 
 	div.burger {
 		position: relative;
@@ -447,7 +459,7 @@ body.window-menu .burger > div {
 		justify-content: center;
 		flex-direction: column;
 		background: url(../img/bg.jpg) no-repeat;
-		margin-top: 13rem;
+		margin-top: 10rem;
 		max-width: 100%;
 		height: calc(100vh - (24px + 126px + 126px));
 		background-size: cover;
@@ -461,17 +473,17 @@ body.window-menu .burger > div {
 		background-color: #002749;
 		font-weight: 600;
 		font-size: 2rem;
+		margin-left: 0px;
 		letter-spacing: 0.02em;
 	}
 
+	.social__link {
+		display: none;
+	}
 
-
-
-
-
-
-
-
+	.main__title {
+		margin: 3% 0 0 2rem;
+	}
 
 }
 
