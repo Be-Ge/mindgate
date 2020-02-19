@@ -481,6 +481,19 @@ body.window-menu .burger > div {
 		width: 15rem;
 	}
 
+	.navigation-window {
+		margin-right: 6rem;
+		margin-top: 8rem;
+	}
+
+	.social-window {
+		margin-right: 6rem;
+	}
+
+	.burger-close {
+		right: 2rem;
+	}
+
 }
 
 
