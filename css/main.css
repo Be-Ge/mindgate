@@ -435,6 +435,7 @@ body.window-menu .burger > div {
 	.background__main-section {
 		display: flex;
 		justify-content: flex-end;
+		align-items: flex-end;
 		background: url(../img/bg.jpg) no-repeat;
 		margin-top: 10rem;
 		max-width: 100%;
@@ -464,8 +465,6 @@ body.window-menu .burger > div {
 		line-height: 4rem;
 	}
 
-
-
 	.certification {
 		margin-left: 5%;
 	}
@@ -493,6 +492,14 @@ body.window-menu .burger > div {
 	.burger-close {
 		right: 2rem;
 	}
+
+	.window-menu.show {
+		transform: translate(0%, 0%);
+		background: #002749 url(../img/mobile-bg.png) no-repeat;
+		background-position-y: bottom;
+    	background-size: auto;
+	}
+	
 
 }
 
