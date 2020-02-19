@@ -162,3 +162,39 @@ a.blue__arrow-link {
 .blue__arrow {
     margin-left: 3rem;
 }
+
+/* mobile version */
+
+@media ( max-width: 768px ) {
+
+    .img__company-main {
+        display: none;
+    }
+
+    .quotes::before {
+        display: none;
+    }
+
+    .quotes {
+        width: 90%;
+    }
+
+    .quotes__main {
+        flex-wrap: wrap;
+    }
+
+    .quotes__text {
+        width: 90%;
+        padding-top: 5rem;
+    }
+
+    .company__types {
+        flex-wrap: wrap;
+        margin-top: 5rem;
+    }
+
+    .company__type {
+        width: 90%;
+    }
+
+}

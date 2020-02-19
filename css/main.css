@@ -497,9 +497,27 @@ body.window-menu .burger > div {
 		transform: translate(0%, 0%);
 		background: #002749 url(../img/mobile-bg.png) no-repeat;
 		background-position-y: bottom;
-    	background-size: auto;
+    	background-size: contain;
 	}
+
+	.img__company-main {
+        display: none;
+    }
 	
+	.about-company {
+		width: 100%;
+		font-weight: bold;
+		font-size: 3rem;
+		line-height: 50px;
+		letter-spacing: 0.02em;
+		background: #F1F1F1;
+		color: #002749;
+		height: auto;
+		padding: 4rem 0 0 2rem;
+		position: absolute;
+		top: 130px;
+		z-index: 4;
+	} 
 
 }
 
