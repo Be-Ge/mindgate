@@ -79,3 +79,21 @@ a.white__arrow-link {
 .white__arrow {
     margin-left: 3rem;
 }
+
+/* mobile version */
+
+@media ( max-width: 768px ) {
+
+    .bg__services.container {
+        width: 100%;
+        margin-top: 30rem;
+    }
+
+    .box__services {
+        width: 100%;
+    }
+
+    .bg__company-main {
+        padding-bottom: 0em;
+    }
+}

@@ -444,15 +444,9 @@ body.window-menu .burger > div {
 	}
 	
 	.background__main  {
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
+		max-width: initial;
 		width: 100%;
-		background-color: #002749;
-		font-weight: 600;
-		font-size: 2rem;
-		margin-left: 0px;
-		letter-spacing: 0.02em;
+		margin: 0;
 	}
 
 	.social__link {
@@ -502,22 +496,25 @@ body.window-menu .burger > div {
 
 	.img__company-main {
         display: none;
-    }
+	}
+	
+	.company {
+		position: static;
+	}
 	
 	.about-company {
 		width: 100%;
-		font-weight: bold;
 		font-size: 3rem;
-		line-height: 50px;
-		letter-spacing: 0.02em;
 		background: #F1F1F1;
-		color: #002749;
 		height: auto;
 		padding: 4rem 0 0 2rem;
 		position: absolute;
 		top: 130px;
 		z-index: 4;
 	} 
+
+
+	
 
 }
 

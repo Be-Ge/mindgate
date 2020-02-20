@@ -167,6 +167,17 @@ a.blue__arrow-link {
 
 @media ( max-width: 768px ) {
 
+    .bg__quotes.container {
+        width: 100%;
+        margin-top: 30rem;
+    }
+
+    .bg__company-main {
+        padding-bottom: 0;
+        background-color: #ffffff;
+    }
+
+
     .img__company-main {
         display: none;
     }
@@ -176,7 +187,8 @@ a.blue__arrow-link {
     }
 
     .quotes {
-        width: 90%;
+        width: 100%;
+        padding-top: 0rem; 
     }
 
     .quotes__main {
@@ -184,8 +196,13 @@ a.blue__arrow-link {
     }
 
     .quotes__text {
-        width: 90%;
+        width: 100%;
         padding-top: 5rem;
+    }
+
+    .company {
+        position: static;
+        margin: 0em;
     }
 
     .company__types {
@@ -194,7 +211,32 @@ a.blue__arrow-link {
     }
 
     .company__type {
-        width: 90%;
+        width: 100%;
     }
+
+    .digital__type h3, p {
+        width: 100%; 
+    }
+
+    .digital__type {
+        flex-direction: column;
+    }
+
+    .bg__digital-blue {
+        width: 100%;
+        background-size: contain;
+        background-position-y: top;
+        background-position-x: right;
+    }
+
+    .digital__type > .type-desciription {
+        padding: 0em;
+    }
+
+    .digital-blue__text {
+        width: 100%;
+    }
+
+  
 
 }
