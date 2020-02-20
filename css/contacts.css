@@ -111,3 +111,29 @@
     width: 100%;
 }
 
+/* mobile version */
+ 
+@media ( max-width: 768px ) {
+
+    .bg__contacts.container {
+        width: 100%;
+        margin-top: 25rem;
+    }
+
+    .contact__box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact__info {
+        width: 100%;
+        padding: 5rem 5%;
+    }
+
+    .contact__form {
+        width: 100%;
+        padding: 5rem 5%;
+    }
+
+
+}

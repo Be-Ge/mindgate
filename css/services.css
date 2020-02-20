@@ -86,14 +86,26 @@ a.white__arrow-link {
 
     .bg__services.container {
         width: 100%;
-        margin-top: 30rem;
+        margin-top: 25rem;
     }
 
     .box__services {
         width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .bg__company-main {
         padding-bottom: 0em;
     }
+
+    .services__main-text {
+        padding-top: 4rem;
+    }
+
+    a.white__arrow-link {
+        justify-content: center;
+        padding-right: 0px;
+    }
+
 }
