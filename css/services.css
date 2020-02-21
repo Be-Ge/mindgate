@@ -86,13 +86,13 @@ a.white__arrow-link {
 
     .bg__services.container {
         width: 100%;
-        margin-top: 25rem;
+        margin-top: 20rem;
     }
 
     .box__services {
         width: 100%;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .bg__company-main {
@@ -100,12 +100,27 @@ a.white__arrow-link {
     }
 
     .services__main-text {
-        padding-top: 4rem;
+        background-color: #f1f1f1;
+        padding: 5rem 2rem;
+        margin-bottom: 0rem;
+    }
+
+    .text-perform-box {
+        padding: 0 2rem;
     }
 
     a.white__arrow-link {
         justify-content: center;
         padding-right: 0px;
+        margin-top: 4rem;
+    }
+
+    .text-influence h2 {
+        padding: 0 2rem;
+    }
+
+    .text-perform h2 {
+        padding: 0 2rem;
     }
 
 }

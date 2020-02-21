@@ -169,7 +169,9 @@ a.blue__arrow-link {
 
     .bg__quotes.container {
         width: 100%;
-        margin-top: 30rem;
+        margin-top: 20rem;
+        padding-top: 5rem;
+        background: #f1f1f1;
     }
 
     .bg__company-main {
@@ -188,7 +190,7 @@ a.blue__arrow-link {
 
     .quotes {
         width: 100%;
-        padding-top: 0rem; 
+        padding: 0rem 2rem;
     }
 
     .quotes__main {
@@ -197,7 +199,7 @@ a.blue__arrow-link {
 
     .quotes__text {
         width: 100%;
-        padding-top: 5rem;
+        padding: 2rem 2rem;
     }
 
     .company {
@@ -207,11 +209,17 @@ a.blue__arrow-link {
 
     .company__types {
         flex-wrap: wrap;
-        margin-top: 5rem;
+        margin-top: 0rem;
+        padding: 5rem 2rem;
+        background-color: #fff;
     }
 
     .company__type {
         width: 100%;
+    }
+
+    .digital__types {
+        margin-top: 0rem;
     }
 
     .digital__type h3, p {
@@ -219,7 +227,8 @@ a.blue__arrow-link {
     }
 
     .digital__type {
-        flex-direction: column;
+        flex-direction: column-reverse;
+        margin-bottom: 0rem;
     }
 
     .bg__digital-blue {
@@ -230,14 +239,22 @@ a.blue__arrow-link {
     }
 
     .digital__type > .type-desciription {
-        padding: 0em;
+        padding: 5rem 2rem;
+    }
+
+    .digital__type:nth-of-type(2n) .type-desciription {
+        padding: 5rem 2rem;
+        
     }
 
     .digital-blue__text {
         width: 100%;
+        padding: 5rem 2rem;
     }
 
-    
+    .digital__type:nth-of-type(2n) .img-wrap {
+        order: 1;
+    }
   
 
 }
