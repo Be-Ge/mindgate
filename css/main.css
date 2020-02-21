@@ -438,9 +438,10 @@ body.window-menu .burger > div {
 		align-items: flex-end;
 		background: url(../img/bg.jpg) no-repeat;
 		margin-top: 10rem;
+		padding-bottom: 10rem;
 		max-width: 100%;
-		height: calc(100vh - (24px + 126px + 126px));
-		background-size: cover;
+		height: calc(100vh - (100px + 126px));;
+		background-size: contain;
 	}
 	
 	.background__main  {
