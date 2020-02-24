@@ -192,6 +192,11 @@ div.z{
 	width: 20rem;
 }
 
+.arrow:hover {
+	color: #7DCEF1;
+	transition: all .3s;
+}
+
 /* start footer */
 .footer {
 	height: 126px;
@@ -254,7 +259,7 @@ body.window-menu .burger > div {
 
 .burger-close {
 	position: absolute;
-	right: 8rem;
+	right: 5rem;
 	top: 4rem;
 	width: 3rem;
 	height: 3rem;
